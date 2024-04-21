@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 import * as S from "./styled"
-import { useState } from "react";
+// import { useState } from "react";
 
 export default function Header() {
-  const [menu, setMenu] = useState(false); 
+  // const [menu, setMenu] = useState(false); 
 
   return (
     <S.Header>
       <span>&lt;YN</span>
-        <button onClick={() => setMenu(!menu)}>{menu ? "X" : "☰"}</button>
-        {menu && (
+        {/* <button onClick={() => setMenu(!menu)}>{menu ? "X" : "☰"}</button>
+        {menu && ( */}
               <S.BoxMenu>
                 <ul>
                     <S.Lista><Link to="/">Inicio</Link></S.Lista>
@@ -17,7 +17,7 @@ export default function Header() {
                     <S.Lista><Link to="/projetos">Projetos</Link></S.Lista>
                 </ul>
               </S.BoxMenu>
-        )}  
+        {/* )}   */}
     </S.Header>
   )
 }
