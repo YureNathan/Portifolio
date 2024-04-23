@@ -8,9 +8,9 @@ export default function Inicio() {
       <Header />
       <S.Container>
         <div className="container-text">
-          <h1>Olá! sou Yure Nathan</h1>
+          <h1>Olá! sou  <span className="name">Yure Nathan</span></h1>
           <p>Desenvolvedor Front-End em formação, em busca de novos desafios compartilhando meu conhecimento e projetos!</p>
-          <a href="#" target="_blank"><button href="https://google.com" >Baixar CV /&gt;</button></a>
+          <a href="#" target="_blank"><button href="https://google.com" >Baixar CV/&gt;</button></a>
           <ul className='redes-sociais'>
             <li>
               <a href="https://www.linkedin.com/in/yurenathan/" title='Ir para o linkedIn' target='_blank'><FaLinkedin /></a>

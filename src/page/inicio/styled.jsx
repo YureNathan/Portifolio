@@ -14,8 +14,12 @@ export const Container = styled.section`
     background-color: #202833;
     color: #fff;
   h1 {
-    font-size: 36px;
+    font-size: 32px;
   }
+.name {
+  color: #5FDBA2;
+}
+
   p {
     font-size: 20px;
     margin-bottom: 20px;
@@ -30,10 +34,8 @@ export const Container = styled.section`
     border-radius: 50px;
     transition: background-color 0.2s ease;
     width: 11vw;
-    min-height: 6vh;
-    letter-spacing: 1px;
-    
-    
+    height: 7vh;
+    letter-spacing: 1px; 
   }
   button:hover {
     background-color: #5FDBA2;
