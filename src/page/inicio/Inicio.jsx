@@ -25,10 +25,7 @@ export default function Inicio() {
         </div>
         <div>
           <img className='code' src={Code} alt="Ilustração programando em um notebook" />
-
         </div>
-
-
       </S.Container>
     </S.Main>
   )
