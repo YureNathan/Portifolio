@@ -1,15 +1,15 @@
 import Header from '../../components/Header'
 import * as S from "./styled"
-
+import Foto from "../../assets/perfil.png"
 export default function Sobre() {
   return (
    <>
    <S.Main>
    <Header/>
       <S.Container>
-        <div>
-        <img src="https://avatars.githubusercontent.com/u/91153560?v=4" alt="foto perfil" /> 
-        </div>
+        <S.Boximg>
+        <img src={Foto} alt="foto perfil" /> 
+        </S.Boximg>
         <div>
         <h2>Sobre mim</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In adipisci omnis similique consequatur? Enim ratione vel dignissimos esse odit suscipit repellendus, repudiandae doloribus perspiciatis consequatur unde commodi maxime culpa inventore!</p>
