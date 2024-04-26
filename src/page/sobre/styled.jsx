@@ -50,6 +50,10 @@ export const boxCarrosel = styled.div `
     .rec .rec-arrow-right, .rec .rec-arrow-left{
     background-color:#5FDBA2;
 }
+.rec .rec-dot {
+    background-color: #fff; 
+}
+
 `
 export const Boxtext = styled.div`
     height: 35vh;
