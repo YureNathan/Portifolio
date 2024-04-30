@@ -27,7 +27,7 @@ export const Boximg = styled.div`
     max-width: 450px;
     border-radius: 50%;
       img {
-       width: 100%;
+       width: 80%;
        border-radius:52%;
        background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
      }
