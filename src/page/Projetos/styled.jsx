@@ -7,16 +7,14 @@ export const Container = styled.section`
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  /* border: solid red 2px;  */
   height: 100%;
-  /* padding: 70px 0 70px; */
 
   h2 {
     font-size: 35px;
     color: #84fab0;
-    padding: 60px 0;
+    padding: 50px 0;
     font-weight: 500;
-    /* margin-bottom: 35px; */
+
   }
 
   @media (max-width: 500px) {
@@ -36,19 +34,22 @@ export const boxCarrosel = styled.div`
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-top: 2px;
+    
   }
+
   img {
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
-      rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
     width: 40vw;
     height: 450px;
   }
+
   .github {
     width: 160px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
     margin: 20px;
     height: 55px;
     text-align: center;
@@ -74,11 +75,11 @@ export const boxCarrosel = styled.div`
     background-image: linear-gradient(
       to right,
       #009245,
-      #fcee21,
+      #9cec74,
       #00a8c5,
       #d9e021
     );
-    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+    box-shadow:  currentColor 4px 15px 0 rgba(83, 176, 57, 0.75);
   }
 
   .rec .rec-arrow-right,
@@ -89,3 +90,15 @@ export const boxCarrosel = styled.div`
     background-color: #fff;
   }
 `;
+
+export const Boxinfo = styled.div `
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  svg {
+    width: 30px;
+    height: 30px; 
+    text-align: center;
+    font-size: 1.7rem;
+  }  
+`
