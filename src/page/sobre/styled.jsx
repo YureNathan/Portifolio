@@ -27,14 +27,13 @@ export const Boximg = styled.div`
     max-width: 450px;
     border-radius: 50%;
       img {
-       width: 80%;
+       width: 100%;
        border-radius:52%;
        background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
      }
 `
 export const boxCarrosel = styled.div `
-     
-        width: 70vw;
+        width: 65vw;
         display: flex;
         justify-content: center;
     p {
@@ -50,13 +49,13 @@ export const boxCarrosel = styled.div `
     .rec .rec-arrow-right, .rec .rec-arrow-left{
     background-color:#5FDBA2;
 }
-.rec .rec-dot {
-    background-color: #fff; 
-}
+    .rec .rec-dot {
+        background-color: #fff; 
+    }
 
 `
 export const Boxtext = styled.div`
-    height: 35vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
