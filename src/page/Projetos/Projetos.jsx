@@ -15,10 +15,10 @@ export default function Projetos() {
       <S.boxCarrosel>
       <Carousel>
            <div className='card'>
-           <img src={Mc} alt="" />
+           <img src={Mc} alt="Imagem projeto" />
            <p>Projeto Desenvolvido ReactJs</p>
            <S.Boxinfo>
-             <button className='github'>Link no <FaGithub/></button>
+           <a href="https://github.com/YureNathan/mcdonalds" target='_blank' ><button className='github'>Link no <FaGithub/></button></a>
              <DiReact/>
              <DiHtml5/>
              <DiCss3/>
@@ -29,7 +29,7 @@ export default function Projetos() {
            <p>Projeto Desenvolvido com HTML CSS e JS</p>
             <S.Boxinfo>
              
-             <button className='github'>Link no <FaGithub/></button>
+             <a href="https://github.com/YureNathan/desafioFinalVNW/tree/main"target='_blank'><button className='github'>Link no <FaGithub/></button></a>
              <DiHtml5/>
              <DiCss3/>
              <DiJavascript1/>
@@ -40,7 +40,7 @@ export default function Projetos() {
            <p> Desenvolvido com HTML CSS e JS</p>
            <S.Boxinfo>
            
-             <button className='github'>Link no <FaGithub/></button>
+           <a href="https://github.com/YureNathan/beat-desafio3VNW" target='_blank'><button className='github'>Link no <FaGithub/></button></a>
              <DiHtml5/>
              <DiCss3/>
              <DiJavascript1/>

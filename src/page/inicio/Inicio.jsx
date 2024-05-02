@@ -2,6 +2,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa6";
 import Header from '../../components/Header'
 import * as S from "./styled"
 import Code from "../../assets/coding.svg"
+import curriculo from "../../assets/curriculo.pdf"
 export default function Inicio() {
   return (
     <S.Main>
@@ -10,7 +11,7 @@ export default function Inicio() {
         <div className="container-text">
           <h1>Olá! sou  <span className="name">Yure Nathan</span></h1>
           <p>Desenvolvedor Front-End em formação, em busca de novos desafios compartilhando meu conhecimento e projetos!</p>
-          <a href="#" target="_blank"><button href="https://google.com" >Baixar CV/&gt;</button></a>
+          <a href={curriculo} target="_blank"><button >Baixar CV/&gt;</button></a>
           <ul className='redes-sociais'>
             <li>
               <a href="https://www.linkedin.com/in/yurenathan/" title='Ir para o linkedIn' target='_blank'><FaLinkedin /></a>
