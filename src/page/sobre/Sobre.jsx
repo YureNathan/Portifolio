@@ -20,7 +20,7 @@ export default function Sobre() {
         </S.Boximg>
         <div>
         <h2>Sobre mim</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In adipisci omnis similique consequatur? Enim ratione vel dignissimos esse odit suscipit repellendus, repudiandae doloribus perspiciatis consequatur unde commodi maxime culpa inventore!</p>
+        <p>Me chamo Yure, tenho 24 anos e amo a tecnologia, gosto de o que tecnologia pode realizar. Atualmente estou estudando front-end, buscando minha primeira vaga.</p>
         </div>
       </S.Container>
       <section>
