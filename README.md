@@ -10,4 +10,4 @@ Projeto final no curso vai na Web, um bom programador precisa de um portifolio p
 
 ## Imagem do projeto finalizado
 
- <img src="projeto.png">
+ <img src="src/assets/projeto.png">
