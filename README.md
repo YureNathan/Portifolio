@@ -1,8 +1,13 @@
-# React + Vite
+# Projeto portifólio 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto final no curso vai na Web, um bom programador precisa de um portifolio para apresentar seus projetos, dessa forma foi criado o meu. foi aplicado os conehcimentos adquiridos nas aulas de React, utilizando styled components e rotas! 
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ReactJS
+- React Router
+- Styled Components
+
+## Imagem do projeto finalizado
+
+ <img src="projeto.png">
